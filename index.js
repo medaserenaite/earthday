@@ -3,10 +3,11 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const path = require('path');
 // require('./models/Product')
-require('./routes/productRoutes')(app);
+
 const PORT = process.env.PORT || 5000;
 
 const app = express();
+// require('./routes/productRoutes')(app);
 
 //connects to database - needs some tweaking
 mongoose.Promise = global.Promise;
