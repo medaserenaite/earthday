@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       hello world
+       <div class="g-signin2" data-onsuccess="onSignIn"></div>
      </div>
     );
   }
