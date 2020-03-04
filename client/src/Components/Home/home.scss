@@ -1,0 +1,24 @@
+.Home {
+  .home-container {
+    &__item {
+      padding: 15px;
+      margin: 5px;
+      border: solid 1px green;
+      width: 200px;
+
+      &:hover {
+        background-color: rgba(0, 128, 0, 0.229);
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+#donesies-task-container {
+  width: 500px;
+  background-color: rgba(194, 255, 192, 0.338);
+  min-width: 20px;
+  min-height: 20px;
+  height: 100%;
+  border: solid 1px green;
+}
