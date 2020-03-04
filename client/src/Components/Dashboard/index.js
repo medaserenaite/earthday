@@ -1,3 +1,4 @@
+// LEADERBOARD / SCORE BOARD
 import React, { Component } from "react";
 
 class Dashboard extends Component {
