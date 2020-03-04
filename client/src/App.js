@@ -1,6 +1,7 @@
 // //entry point to our front end app"
 import React, { Component } from "react";
 import './App.scss';
+import Home from './Components/Home'
 
 class App extends Component {
   constructor(props) {
@@ -14,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       hello world
+       <Home/>
      </div>
     );
   }
